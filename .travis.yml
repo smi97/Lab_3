@@ -1,4 +1,4 @@
-language: generic 
+language: с++ 
 matrix:
   include:
     - os: osx
@@ -8,4 +8,4 @@ matrix:
 script:
   - mkdir build && cd build
   - cmake .. && make
-  - ./test -r compact
+  - ./test -s -r compact
