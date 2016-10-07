@@ -4,7 +4,7 @@
 
 int incr(int a)
 {
-    return a++;
+    return ++a;
 }
 
 TEST_CASE( "Increments are computed", "[increment]" ) {
