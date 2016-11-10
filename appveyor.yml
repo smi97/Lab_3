@@ -29,4 +29,4 @@ build_script:
   - mkdir build && cd build
   - cmake .. -G "NMake Makefiles"
   - nmake
-  - test -s -r compact
+  - test -s compact
